@@ -10,6 +10,8 @@ import Contact from './pages/Contact.jsx'
 import About from './pages/About.jsx'
 import Appointment from './pages/Appointment.jsx'
 import AppContextProvider from './context/AppContext.jsx'
+import MyProfile from './pages/MyProfile.jsx'
+import MyAppointment from './pages/MyAppointment.jsx'
 
 const router = createBrowserRouter([
   {
@@ -43,6 +45,14 @@ const router = createBrowserRouter([
         path: '/appointment/:docId',
         element: <Appointment />
       },
+      {
+        path: '/my-profile',
+        element: <MyProfile />
+      },
+      {
+        path: '/my-appointment',
+        element: <MyAppointment />
+      }
     ]
   }
 ])
