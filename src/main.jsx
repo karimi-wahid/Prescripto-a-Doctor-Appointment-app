@@ -50,7 +50,7 @@ const router = createBrowserRouter([
         element: <MyProfile />
       },
       {
-        path: '/my-appointment',
+        path: '/my-appointments',
         element: <MyAppointment />
       }
     ]
